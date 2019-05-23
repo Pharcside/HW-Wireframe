@@ -17,22 +17,28 @@ Header, Nav, Section, Aside, Footer {
 article {
     color: #ebebeb;
     background: #777;
+    height:225px;
 }
 
 h1, p {
     color: #ebebeb;
-    background: #777
+    background: #777;
+    padding: 20px;
+
 }
 
 section {
         float: left;
-        padding:20px;
+        Padding:40px;
+        width:40%;
+
 }
 
 aside {
     Float:right;
-    width: 30%;
+    width: 50%;
     border:10px;
+    height:326px;
 }
 header {
     padding:20px;
@@ -46,4 +52,9 @@ footer {
     margin-bottom: 10px;
     padding:20px;
 
+}
+.clearFix::after{
+    content: "";
+    clear: both;
+    display: table;
 }

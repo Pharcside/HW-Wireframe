@@ -58,3 +58,15 @@ footer {
     clear: both;
     display: table;
 }
+
+.box1 {
+   border:10px;
+}
+
+.box2 {
+    border:10px;
+}
+
+.box3 {
+    border:10px;
+}
